@@ -8,12 +8,14 @@
     <artifactId>spring-boot-01-helloword</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--父pom-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.9.RELEASE</version>
     </parent>
     <dependencies>
+        <!--导入依赖；SpringBoot的场景启动器；帮我们导入了web模块正常运行所依赖的组件-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
